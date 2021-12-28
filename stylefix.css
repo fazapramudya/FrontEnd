@@ -1,0 +1,153 @@
+body {
+  background-image: url(pict/bgregist.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logobms img {
+  width: 22%;
+}
+
+.panel {
+  background-color: white;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  height: 400px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.title {
+  text-align: center;
+}
+
+.btn:hover {
+  border: 1px solid white;
+  background-color: #ffffff;
+  text-decoration: none;
+  color: black;
+}
+a.nav-link {
+  position: relative;
+  transition: color 0.25s ease-in-out;
+  font-weight: 500;
+}
+.navbar-nav a {
+  color: rgb(230, 230, 230);
+  margin-right: 1rem;
+}
+.navbar-nav a:hover {
+  color: white !important;
+}
+.navbar {
+  transition: background-color 200ms ease-in;
+}
+
+.navbar.scrolled {
+  background-color: blue;
+  box-shadow: 0px 3px 20px rgba(1, 41, 112, 0.2);
+  transition: background-color 200ms ease-in;
+}
+/* Hover Navbar */
+@media screen and (min-width: 768px) {
+  a.nav-link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2.3px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-in-out;
+  }
+
+  a.nav-link:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .bms.jumbotron {
+    padding-top: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+.landing-text > * {
+  margin-bottom: 0.7rem;
+}
+object {
+  pointer-events: none;
+}
+
+@media screen and (min-width: 992px) {
+  section.landing {
+    padding-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  a .btn-login {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .col-md-6 img {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    padding-bottom: 1rem;
+  }
+  .lead {
+    text-align: justify;
+  }
+  .logo-bms,
+  .img-conference {
+    margin-bottom: 2rem;
+  }
+}
+
+a button.btn-login,
+.btn-daftar {
+  color: blue;
+  border-radius: 7px;
+  background-color: white;
+}
+a button.btn-login {
+  font-weight: 600;
+}
+.btn-daftar {
+  font-weight: 800;
+}
+a button.btn-login:hover,
+.btn-daftar:hover {
+  color: white;
+  background: none;
+  border: 1px solid #fff;
+}
+.navbar {
+  background: linear-gradient(
+    90deg,
+    #948efa -10%,
+    rgba(148, 142, 250, 0.7) 110%
+  );
+}
+.teks1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

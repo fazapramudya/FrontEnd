@@ -1,0 +1,91 @@
+.body {
+  font-family: "Poppins", sans-serif;
+}
+body .logo {
+  padding-left: 35px;
+  padding-top: 35px;
+  height: 150px;
+  width: 285px;
+}
+
+header .header {
+  float: right;
+  padding: 90px 130px;
+  display: flex;
+  list-style-type: none;
+}
+header .header li {
+  margin-left: 65px;
+}
+header .header li a {
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 6px 6px 6px 6px;
+  color: white;
+}
+header .header li a:hover {
+  background: white;
+  color: #f96d30;
+}
+.Masuk {
+  position: relative;
+  background: white;
+  border-radius: 10px;
+  margin-top: -5px;
+}
+.teks {
+  float: left;
+  padding-top: 50px;
+  padding-left: 900px;
+}
+.teks1 {
+  position: absolute;
+  width: 529px;
+  height: 108.03px;
+  left: 115px;
+  top: 217.06px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 108px;
+
+  color: #ffffff;
+}
+.teks2 {
+  position: absolute;
+  width: 679px;
+  height: 244.07px;
+  left: 115px;
+  top: 325.09px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 45px;
+
+  color: #ffffff;
+}
+.daftar {
+  color: #f96d30;
+  position: absolute;
+  left: 115px;
+  top: 520px;
+}
+.daftar1 {
+  margin-top: 15px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 20px;
+}
+.animasi {
+  width: 673px;
+  height: 508px;
+  left: 729px;
+  top: 10px;
+}
